@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-height: 100vh;
+}
+h1{
+    margin: .5em;
+    /* margin-bottom: 0; */
+    text-align: center;
+}
+h3{
+    margin-bottom: .5em;
+    text-align: center;
+}
+#button-wrapper{
+    display: flex;
+    gap: 1em;
+}
+textarea{
+    all: unset;
+    border: 10px solid hsl(195deg, 85%, 41%);
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 10px;
+}
+#mic img{
+    width: 24px;
+}
+#acc{
+    /* display: flex; */
+    text-align: right;
+
+    margin-top: -1.5em;
+}
+#speak img{
+    width: 24px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Voice Recognition</title>
+</head>
+<body>
+    <h1>Voice Recognition</h1>
+    <h3>Not Listening... Start the mic button for Listening</h3>
+    <textarea name="input-text" id="input-text" cols="30" rows="10" placeholder="click on 'start Listening' button and speak something, and see the magic"></textarea>
+    <span>
+        <input type="radio" id="en-US" name="lang" checked>
+        <label for="en-US">English</label>
+        <input type="radio" id="hi-IN" name="lang">
+        <label for="hi-IN">Hindi</label>
+    <p id="acc">Accuracy: <span id="con">0</span></p>
+</span>
+    <span id="button-wrapper">
+        <button id="copy">Copy Text</button>
+        <button id="clear">Clear Text</button>
+        <button id="speak"> <img src="https://img.icons8.com/ios/50/ffffff/medium-volume--v1.png"/> speak text</button>
+    </span>
+    <button id="mic"><img src="https://img.icons8.com/material-rounded/48/ffffff/microphone.png"/>
+        Start Listening</button>
+</body>
+</html>
