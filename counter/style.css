@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #edede9;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 512px;
+    height: 100vh;
+    /* margin-top: 5em; */
+}
+.button-wrapper{
+    display: flex;
+    gap: 2em;
+}
+h1{
+    margin: 0;
+}
+p{
+    font-size: 164px;
+    margin: 0;
+}
+button{
+    text-transform: uppercase;
+}
