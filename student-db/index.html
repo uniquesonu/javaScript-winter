@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <script src="script.js" defer></script>
+
+    <title>Student DB</title>
+</head>
+<body>
+    <!-- <header> -->
+        <h1>Student DataBase</h1>
+    <!-- </header> -->
+    <form>
+            <div class="form-control">
+                <label for="image">Upload image</label>
+                <input type="file" id="image">
+            </div>
+            <div class="form-control">
+                <label for="name">Name: </label>
+                <input type="text" id="name" placeholder="Enter your name" >
+            </div>
+            <div class="form-control">
+                <label for="uid">UID: </label>
+                <input type="text" id="uid" placeholder="Enter your uid">
+            </div>
+            <div class="form-control">
+                <label for="sec">Section: </label>
+                <input type="text" id="sec" placeholder="section" >
+            </div>
+            <div class="form-control">
+                <label for="dob">DOB: </label>
+                <input type="date" id="dob" placeholder="dob">
+            </div>
+            <div class="form-control">
+                <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="female" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="male" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="neutral" value="Prefer not to say">
+            <label for="neutral">Prefer not to say</label>
+            </div>
+        
+        <div class="btn-wrapper">
+            <button type="submit" id="submit">Submit</button>
+        <button id="reset" type="reset">Reset</button>
+        
+        </div>
+    </form>
+    <!-- <button id="view">View DataBase</button> -->
+
+    <table border="1">
+        <thead>
+            <th>Photo</th>
+            <th>Name</th>
+            <th>UID</th>
+            <th>Section</th>
+            <th>DOB</th>
+            <th>Gender</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="https://lh3.googleusercontent.com/hdU9BN96h7W0-sGiMclcoFsmz-50ENQw6upvpZpzZ6XDRGiu8aA1xtOiDB1gSEVSI7HNIThlf1_Xxi12sv0HFZUp8DW9gwu19MuwG0SW93tgPKz4vr9JCP8vvs8SJ5-7QnL7FOUbUEma_KJtGT9AzaafuEbb4_poEogOREKZzvvB3tFt59N0Eu8hrYIh4fuI5tVQPXJQgMF5RvSrkDnXingorFOy4qNyaxUpTO699raIm2BPsdT28VAkMY8nKbB0QaN3HDWL9xuugv9nFAJGH9RRybTAuVEnTr1TFawAddq_MUOt3PLbAo48vrOno9exjsrWQHyHwfv5_gS_EIzdOWiI7VU6PwnhA8tDkZW6fBcce_eUVYde5Xeaqt_jcQXDElB8NvWi1Qaky_W6YpEIkc4D2xjJNEn8KynJXPbUGRoFyUJZOGhvvU_8NsSdH-IthsgZZxO19p7Vq9C7COI_N28gSaNDCKk-aHLHZ5qp68hqd0NXPIhkmH0DkO9NoIrEO_FNYXKn1fUa4hnBk1TwJvExme06Ganq72GtGqz3s9OBgRm2ZGogO_cscK_u9WUlgyPFtNoIS_KlMiz2I-EdQMf4ygSal4lLzdogazY3STiD9cECyqAPEh5vVkL5GfSYHDRrhmiBvojYjdi2UAvt-armFdiLIuTmAvL5Z1zDH5w5HeLBF4T939O_KT2ZldeqipVRqUuLy1E_dBQzHmSQ-VpAwifVG4TF1YmTgbvODA0l25c_s1WIuT2oatOXqd3HYyApVMJZ2f7T-La9PCFYdlegLtApqF2dg1_BVVprDjKF2-jrmEDbnZIR4iN1tgoDd1yI3QkNSnlAGnE3CTz6kqM0c2xfDRHp60E3s4TV3feB4nZcBrDHfKaLkwZqCpkzADuCSPaUKEJrlpX4XhdVdUJG4YBsorfQ1LDppb-FBDqt5Y6wwW84js-Vej5EzDe5QP9e78gfPSu7x9Tyl-RECCJe7_s7Q2pE5es4SpJuzFLnpbCYN0zPbhGw8mHCF3j0Y7xqgOLj1aBx9gSSVPV-2jj4zq8=w684-h911-no?authuser=0" alt=""></td>
+                <td>sonu kumar</td>
+                <td>21bcs10550</td>
+                <td>803-B</td>
+                <td>09 JUN 2003</td>
+                <td>male</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
