@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 1em 6em;
+}
+.img-wrapper{
+    display: flex;
+    gap: 4em;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.single-img img{
+    width: 300px;
+}
+span{
+    display: flex;
+    gap: 1em;
+}
+.title{
+    width: 35ch;
+}
