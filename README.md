@@ -1,7 +1,7 @@
 # javaScript-winter
 
 
-Project Link: https://uniquesonu.github.io/javascript-winter
+Project Link: https://uniquesonu.github.io/javaScript-winter
 
 This repo contains the following projects:
 
