@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <title>Budget App</title>
+  </head>
+  <body>
+    <h1>Budget App</h1>
+    <form></form>
+    <span class="budget">
+      <!-- <label for="total-budget">Enter your budget</label> -->
+      <div class="inp-wrapper">
+        <input
+          type="number"
+          id="total-budget"
+          placeholder="Enter your budget"
+        />
+        <button class="bud-add">Add</button>
+      </div>
+      <div class="inp-wrapper">
+        <input type="text" id="add-cat" placeholder="Add category" />
+        <button class="add-cat-btn">Add</button>
+      </div>
+    </span>
+
+    <div class="add-category"></div>
+    <div class="expense">
+      <select name="" id="option">
+        <!-- <option value="groceries">groceries</option> -->
+        <!-- <option value="das">fdasklf</option> -->
+      </select>
+      <input
+        type="number"
+        id="expenses-category"
+        placeholder="Enter your Expenses"
+      />
+      <button class="add-exp">Add</button>
+    </div>
+
+    <table border ="1">
+        <tr>
+           <td>Category</td>
+           <td>Expenses</td>
+        </tr>
+        
+        <!-- <tr>
+           <td>groceries</td>
+           <td>0</td>
+        </tr> -->
+     </table>
+     <footer>
+        <div class="sum">
+            <h3>Total Budget: <span id="bud-text">0</span></h3>
+            <h3>Total Expenses: <span id="spent-text">0</span></h3>
+            <h3>Total Saving: <span id="saving-text">0</span></h3>
+        </div>
+     </footer>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  max-height: 100vh;
+  text-align: center;
+  padding: 0 2em;
+  margin-inline: auto;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  margin: 1em 0;
+}
+
+.budget,.add-category {
+  display: flex;
+  gap: 2em;
+  max-width: 1000px;
+  text-align: center;
+  margin-inline: auto;
+}
+.inp-wrapper{
+    display: flex;
+    gap: .5em;
+}
+button {
+  width: 200px;
+}
+.expense{
+    display: flex;
+  gap: 2em;
+  max-width: 1000px;
+  text-align: center;
+  margin-inline: auto;
+}
+#option{
+    width: 400px;
+}
+.sum{
+    display: flex;
+    justify-content: space-evenly;
+}
