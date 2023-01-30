@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #ccd5ae;
+    color: #fff;
+    font-family: 'poppins',sans-serif;
+    min-height: 100vh;
+}
+header{
+    font-size: 1.5rem;
+}
+header,form{
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form input, form button{
+    padding: .5rem;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+form button{
+    background-color: #588157;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease;   
+}
+
+
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list{
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo{
+    margin: .5rem;
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .5s ease;
+}
+.todo li{
+    flex: 1;
+}
+.trash-btn,.complete-btn,.edit-btn{
+    background-color: #ff6f47;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.complete-btn{
+    background-color: #8ac926;
+}
+.edit-btn{
+    background-color: #a3b18a;
+}
+
+.todo-item{
+    padding: 0 .5rem;
+}
+.fa-trash, .fa-check,.fa-edit{
+    pointer-events: none;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: .5;
+}
+.fall{
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+}
