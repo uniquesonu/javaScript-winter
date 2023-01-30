@@ -20,6 +20,6 @@ This repo contains the following projects:
 - [Budget-app](./budget-app)
 - [Music-player](./muzik-player)
 - [Pexel-photo-api](./pexel-photo-api)
-- [Photo-api](./photo-api)
+- [Photo-api](./photos-api)
 - [Qr-code-generator-using-api](./qr-code-generator-using-api)
 - [Todo-list](./todo-list)
