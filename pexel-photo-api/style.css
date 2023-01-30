@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+form{
+    display: flex;
+    /* flex-direction: column; */
+    min-height: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+.search-form{
+    padding: 2em;
+    display: flex;
+}
+input{
+    font-size: 24px;
+    padding: .5em;
+    border: none;
+    outline: none;
+    border: 1px solid rebeccapurple;
+}
+.search-form button{
+    border: none;
+    padding: 1.5em;
+    cursor: pointer;
+    background-color: rebeccapurple;
+    color: white;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+
+}
+img{
+    width: 400px;
+    height: 400px; 
+}
