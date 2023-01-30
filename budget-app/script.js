@@ -45,8 +45,8 @@ const handleOption = () => {
 const updateExpense = () => {
   const selectedIndex = select.selectedIndex;
   const selectedCat = categoryArray[selectedIndex];
-  const selectedExp = (spend += +expense.value);
-  allExpense= allExpense+= (+expense.value);
+  const selectedExp = (spend +(+expense.value));
+  allExpense= allExpense+(+expense.value);
   const tableRows = document.querySelectorAll("tr");
   for (let i = 0; i < tableRows.length; i++) {
     const cells = tableRows[i].cells;
