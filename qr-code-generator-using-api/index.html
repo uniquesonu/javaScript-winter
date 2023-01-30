@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+   <link href="https://cdn.jsdelivr.net/npm/daisyui@2.49.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="card w-96 bg-base-100 shadow-xl p-8">
+  <figure class="px-10 pt-10">
+   
+    <img src="./qr-img.png" alt="qr-image" class="rounded-xl" id="qr-img"/>
+  </figure>
+<!--     alert message -->
+    <div class="alert alert-success shadow-lg mt-4 confirm-message">
+  <div>
+    <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current flex-shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+    <span>qr code for <span id="qr-text">text</span></span>
+  </div>
+</div>
+<!--      -->
+  <div class="card-body items-center text-center">
+    <input type="text" placeholder="Type here" class="input input-bordered input-primary w-full max-w-xs" />
+    <div class="card-actions">
+      <button class="btn btn-primary mt-4 mb-0" id="generate">Generate</button>
+    </div>
+  </div>
+</div>
+  
+</body>
+
+</html>
