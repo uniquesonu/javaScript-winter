@@ -7,7 +7,7 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url('https://source.unsplash.com/random/1920x1080/');
+/*     background: url('https://source.unsplash.com/random/1920x1080/'); */
     overflow: hidden;
   }
   
