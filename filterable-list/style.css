@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 3em auto;
+    background-color: #faedcd;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.my-contact{
+    font-size: 4em;
+    color: #bc6c25
+
+}
+
+.filter-text{
+    all: unset;
+    padding: .8em 0 0 0;
+    font-size: 1.2em;
+}
+
+.collection-header{
+    list-style: none;
+    font-size: 1.4em;
+    margin: 1em 0;
+    color: #bc6c25;
+}
+
+li.collection-item {
+    border: 1px solid #1d3557;
+    margin: 0.05em 0;
+    border-radius: 0.25em;
+    padding: 0.25em;
+    list-style: none;
+    font-size: 1.5em;
+    color: #1d3557;
+}
