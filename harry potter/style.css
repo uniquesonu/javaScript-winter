@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Space Mono', monospace;
+    
+}
+nav{
+    display: flex;
+    height: 5em;
+    background-color: #ccc;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.right-nav{
+    margin-left: auto;
+    margin-right: 2em;
+}
+.logo{
+    margin-left: 1em;
+    font-size: 3em;
+}
+.right-nav ul{
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    text-decoration: none;
+    /* flex-direction: column; */
+}
+.right-nav ul a{
+    all: unset;
+    cursor: pointer;
+}
+.right-nav ul a:hover{
+    color: rgb(126, 98, 98);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+}
+.character{
+    display: flex;
+    /* border: 2px solid gray; */
+    width: 50em;
+    /* min-height: fit-content; */
+    align-items: center;
+    /* margin: 2em 0; */
+    align-items: center;
+    justify-content: center;
+    border-bottom: 4px solid;
+}
+.left img{
+    height: 300px;
+    width: 300px;
+    /* height: 100%; */
+    object-fit: contain;
+    margin-right: 5em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.spell{
+    width: 50em;
+    border: 4px solid red;
+    text-align: center;
+    margin-right: 5em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Nav */
+    nav {
+      height: 4em;
+    }
+  
+    .logo {
+      margin-left: 1em;
+      font-size: 2.5em;
+    }
+  
+    .right-nav {
+      margin-right: 1em;
+    }
+  
+    .right-nav ul {
+      gap: 1.5em;
+    }
+  
+    /* Character */
+    .character {
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    .left img {
+      height: 250px;
+      width: 250px;
+      margin-right: 0;
+      margin-bottom: 1em;
+      margin-top: 1em;
+    }
+  
+    .spell {
+      width: 90%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 1em;
+      margin-top: 1em;
+      border: 2px solid red;
+      padding: 0.5em;
+    }
+  }
+  
+  /* Mobile Styles */
+  @media only screen and (max-width: 480px) {
+    /* Adjustments for mobile devices */
+    
+    /* Body */
+    body {
+    font-size: 16px;
+    }
+    
+    /* Nav */
+    nav {
+    height: 3.5em;
+    }
+    
+    .logo {
+    margin-left: 0.5em;
+    font-size: 2em;
+    }
+    
+    .right-nav {
+    margin-right: 1em;
+    }
+    
+    .right-nav ul {
+    gap: 1em;
+    }
+    
+    .left img {
+    height: 200px;
+    width: 200px;
+    margin-right: 2.5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    }
+    
+    .spell {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border: 2px solid red;
+    padding: 0.5em;
+    }
+    }
